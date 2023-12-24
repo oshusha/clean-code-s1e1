@@ -5,16 +5,16 @@
   font-family: Lato, sans-serif;
 }
 
-.header {
+.eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header__image {
+.matrix__image {
   width: 100%;
 }
-.header .header__link {
+.matrix__link {
   font-family: fantasy, cursive;
 }
 
