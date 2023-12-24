@@ -41,16 +41,16 @@
 }
 
 .to-do-tasks, .completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task-item, .subtitle {
-  list-style:none;
+  list-style: none;
 }
 
 .input,.button{
-  outline:none;
+  outline: none;
   vertical-align: middle;
 }
 
@@ -155,14 +155,14 @@
 
 /* Edit Task */
 .tasks .task-item .input[type=text] {
-  display:none
+  display: none
 }
 
 .tasks .task-item.edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks .task-item.edit-mode .label {
-  display:none;
+  display: none;
 }
