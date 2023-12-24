@@ -40,16 +40,19 @@
   display: flex;
 }
 
-.to-do-tasks, .completed-tasks {
+.to-do-tasks,
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.task-item, .subtitle {
+.task-item,
+.subtitle {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button {
   outline: none;
   vertical-align: middle;
 }
@@ -133,7 +136,7 @@
   width: 226px;
 }
 
-.task-item >    .input[type="text"] {
+.task-item > .input[type="text"] {
   width: 226px;
 }
 
