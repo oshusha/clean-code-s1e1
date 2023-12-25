@@ -21,9 +21,10 @@ const createNewTaskElement = function(taskString) {
   const deleteButton = document.createElement('button');
   const deleteButtonImg = document.createElement('img');
 
+  listItem.className = 'todo-section__task-item task-item';
+
   label.innerText = taskString;
   label.className = 'task-item__label label task';
-
 
   checkBox.type = 'checkbox';
   checkBox.className = 'task-item__input input input-checkbox';
