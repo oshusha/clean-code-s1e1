@@ -11,9 +11,11 @@
   display: block;
   text-align: right;
 }
+
 .matrix__image {
   width: 100%;
 }
+
 .matrix__link {
   font-family: fantasy, cursive;
 }
