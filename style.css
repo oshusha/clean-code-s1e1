@@ -1,3 +1,10 @@
+@font-face { 
+  font-family: 'Papyrus'; 
+  src: url('papyrus.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
@@ -17,7 +24,7 @@
 }
 
 .matrix__link {
-  font-family: fantasy, cursive;
+  font-family: Papyrus, fantasy, cursive;
 }
 
 @media (max-width:768px) {
