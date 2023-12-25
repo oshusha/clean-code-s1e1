@@ -107,7 +107,6 @@ const taskCompleted = function() {
   //Append the task list item to the #completed-tasks
   const listItem = this.parentNode;
   completedTasksHolder.appendChild(listItem);
-  console.log(listItem)
   listItem.classList.remove('todo-section__task-item');
   listItem.classList.add('completed-section__task-item');
   bindTaskEvents(listItem, taskIncomplete);
@@ -121,6 +120,8 @@ const taskIncomplete = function() {
   //Append the task list item to the #incompleteTasks.
   const listItem = this.parentNode;
   incompleteTaskHolder.appendChild(listItem);
+  listItem.classList.remove('completed-section__task-item');
+  listItem.classList.add('todo-section__task-item');
   bindTaskEvents(listItem,taskCompleted);
 }
 
