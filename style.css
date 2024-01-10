@@ -1,6 +1,6 @@
 @font-face { 
-  font-family: 'Papyrus'; 
-  src: url('papyrus.ttf') format('truetype');
+  font-family: "Papyrus"; 
+  src: url("papyrus.ttf") format("truetype");
   font-weight: normal; 
   font-style: normal; 
 }
@@ -8,7 +8,7 @@
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
-  color: #333;
+  color: #333333;
   font-family: Lato, sans-serif;
 }
 
@@ -69,7 +69,7 @@
 .button {
   background: none;
   border: 0px;
-  color: #888;
+  color: #888888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
@@ -82,10 +82,10 @@
 
 /* Heading */
 .title {
-  color: #333;
+  color: #333333;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #333333;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -97,15 +97,15 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
+  border: 1px solid #dddddd;
+  background: #ffffff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #888;
+  color: #888888;
 }
 
 .input[type="text"]:focus {
-  color: #333;
+  color: #333333;
 }
 
 /* New Task */
@@ -122,8 +122,7 @@
 .task-item {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
-
+  border-bottom: 1px solid #eeeeee;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,18 +158,17 @@
 }
 
 /* Completed */
-
 .completed-section__task-item  .label {
   text-decoration: line-through;
-  color: #888;
+  color: #888888;
 }
 
 /* Edit Task */
-.tasks .task-item .input[type=text] {
+.tasks .task-item .input[type="text"] {
   display: none;
 }
 
-.tasks .task-item.edit-mode .input[type=text] {
+.tasks .task-item.edit-mode .input[type="text"] {
   display: inline-block;
   width: 224px;
 }
